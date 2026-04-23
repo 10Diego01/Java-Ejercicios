@@ -3,7 +3,6 @@ import java.util.List;
 
 public class Tienda {
 
-    private List<Producto> inventario;
 
     public Tienda() {
         this.inventario = new ArrayList<>();
@@ -46,8 +45,7 @@ public class Tienda {
     }
 
     public static void main(String[] args) {
-        Tienda tienda = new Tienda();
-
+        private List<Producto> inventario;
         // Productos perecederos
         tienda.agregarProducto(new Perecedero("P001", "Leche entera 1L",     3200,  2));
         tienda.agregarProducto(new Perecedero("P002", "Yogur natural 200g",  1800,  6));
