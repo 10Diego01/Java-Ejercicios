@@ -3,8 +3,6 @@ import java.util.List;
 
 public class Empresa {
 
-    private List<Empleado> listaEmpleados;
-
     public Empresa() {
         this.listaEmpleados = new ArrayList<>();
     }
@@ -36,8 +34,8 @@ public class Empresa {
     }
 
     public static void main(String[] args) {
-        Empresa empresa = new Empresa();
 
+        private List<Empleado> listaEmpleados;
         // Crear vendedores
         Vendedor v1 = new Vendedor("V001", "Ana García",    30, 2020, 2000000, 8000000);
         Vendedor v2 = new Vendedor("V002", "Carlos López",  45, 2015, 2500000, 12000000);
