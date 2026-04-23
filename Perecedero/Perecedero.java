@@ -18,9 +18,9 @@ public class Perecedero extends Producto {
     @Override
     public double calcularPrecioVenta() {
         if (diasACaducar <= 0) return 0;
-        if (diasACaducar <= 3)  return precioBase * 0.60;
-        if (diasACaducar <= 7)  return precioBase * 0.80;
-        if (diasACaducar <= 15) return precioBase * 0.90;
+        if (diasACaducar <= 1)  return precioBase /4;
+        if (diasACaducar <= 2)  return precioBase /3;
+        if (diasACaducar <= 3) return precioBase /2;
         return precioBase;
     }
 
